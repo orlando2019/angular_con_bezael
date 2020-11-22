@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//INICIOS DE SERVICIOS
+import { CargarScriptsService } from './cargar-scripts.service';
+//FIN DE LOS SERVICIOS
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductComponent } from './components/products/product.component';
@@ -19,7 +23,8 @@ import { DetailsProductComponent } from './components/products/details-product/d
     ProductListComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  /* Aqui Añadimos los servis que necesitamos en nuestra aplicacion osea peticiones HTTP*/
+  providers: [CargarScriptsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CargarScriptsService } from '../../cargar-scripts.service';
 
 @Component({
   selector: 'app-page404',
@@ -6,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./page404.component.css'],
 })
 export class Page404Component implements OnInit {
-  constructor() {}
+  constructor(private _CargarScript: CargarScriptsService) {
+    _CargarScript.Cargar(['script']);
+  }
 
   ngOnInit(): void {}
 }
