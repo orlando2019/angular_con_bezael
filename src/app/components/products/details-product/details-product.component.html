@@ -1,0 +1,18 @@
+<div>
+	<h1>Deatalles Del Productos</h1>
+	<hr />
+
+	<div class="card border-primary ml-3 mb-3" style="max-width: 25rem">
+		<h2>
+			{{ product.name }}
+			<!-- Hemos aprendido aqui a pasar un parametro -->
+		</h2>
+		<div class="card-body text-primary">
+			<div>Categoria:{{ product.category }}</div>
+			<div>Descripción:{{ product.description }}</div>
+			<div>Precio:{{ product.price }}</div>
+		</div>
+	</div>
+
+	<button class="btn btn-primary ml-3" (click)="onGoBack()">Go Back</button>
+</div>

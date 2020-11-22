@@ -1,0 +1,8 @@
+<div>
+  <h1>Listado De Productos</h1>
+  <hr />
+
+  <div class="card border-primary ml-3 mb-3" style="max-width: 25rem" *ngFor="let product of products">
+    <app-product [product]="product"></app-product>
+  </div>
+</div>
