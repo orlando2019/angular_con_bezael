@@ -40,6 +40,13 @@ export class DataService {
       description: 'Dulces y Mekatos ',
       price: '$ 4.500',
     },
+    {
+      id: 6,
+      name: 'Papitas Fritas',
+      category: 'Mekatos Papa fritas',
+      description: 'Dulces y Mekatos ',
+      price: '$ 15.500',
+    },
   ];
 
   getAllProducts() {
