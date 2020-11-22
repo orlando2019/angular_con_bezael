@@ -21,7 +21,7 @@ export class DetailsProductComponent implements OnInit {
     /* Con esta linea recuperamos el parametro de la lista de products */
     const productId = this.route.snapshot.paramMap.get('id');
     [this.product] = this.dataSvc.getProductBid(productId);
-    console.log('Producto =>', this.product);
+    //console.log('Producto =>', this.product);
   }
 
   onGoBack() {
