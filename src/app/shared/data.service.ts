@@ -47,6 +47,13 @@ export class DataService {
       description: 'Dulces y Mekatos ',
       price: '$ 15.500',
     },
+    {
+      id: 7,
+      name: 'Arroz',
+      category: 'Granos',
+      description: 'Abarrotes ',
+      price: '$ 1.500 lb',
+    },
   ];
 
   getAllProducts() {
