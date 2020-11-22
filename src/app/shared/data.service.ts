@@ -33,6 +33,13 @@ export class DataService {
       description: 'Dulces ',
       price: '$ 800',
     },
+    {
+      id: 5,
+      name: 'Galletas Recreo',
+      category: 'Galletas',
+      description: 'Dulces y Mekatos ',
+      price: '$ 4.500',
+    },
   ];
 
   getAllProducts() {
