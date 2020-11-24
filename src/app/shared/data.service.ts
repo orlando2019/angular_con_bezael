@@ -54,6 +54,14 @@ export class DataService {
       description: 'Abarrotes ',
       price: '$ 1.500 lb',
     },
+
+    {
+      id: 8,
+      name: 'Azucar',
+      category: 'Granos',
+      description: 'Abarrotes ',
+      price: '$ 5.000 lb',
+    },
   ];
 
   getAllProducts() {
